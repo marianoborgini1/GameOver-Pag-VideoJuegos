@@ -1,0 +1,496 @@
+body{
+    margin: 0;
+    background-color: #fffffff2;
+}
+
+header{
+    text-align: center;
+    background-color: #000000;
+    font-family: 'ArcadeClassic', sans-serif;                                        
+}
+
+.header{
+    border: none;
+    height: 3.5px;
+    background-color: #D35400;
+    width: 90%;
+}
+
+.logo{
+    font-size: 45px;
+    padding: 10px;
+    color: rgb(255, 255, 255) ;
+}
+
+.topnav {
+    justify-content: center;
+    background-color: #000000;
+    overflow: hidden;
+    width: 100%;
+    display: flex;
+}
+
+.topnav a {
+    display: block;
+    color: rgb(255, 255, 255);
+    text-align: center;
+    margin-left: 20px;
+    padding: 17px 16px;
+    text-decoration: none;
+    font-size: 22px;
+    display: inline-block;
+    position: relative;
+    color: #ffffff;
+    text-decoration: none;
+}
+
+.topnav a:after {
+    content: "";
+    display: block;
+    margin: auto;
+    height: 2px;
+    width: 0px;
+    transition: all .8s;
+    }
+
+.topnav a:hover:after {
+    width: 100%;
+    background: #ffffff;
+}
+
+.dropdown {
+    float: left;
+    overflow: hidden;
+}
+
+.dropdown-content a {
+    float: none;
+    color: black;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+    text-align: left;
+}
+
+.topnav a:hover {
+    color: #ccc;
+    transition: 0.2s;
+}
+
+#img{
+    background-image: linear-gradient(
+        0deg,
+        rgba(0,0,0,0.7),
+        rgba(0,0,0,0.7)  
+    ) 
+    ,url("../Img/img-arcade-principal.jpeg");
+    background-repeat: no-repeat ;
+    background-size: cover;
+    background-position: center center;
+    height: 500px; 
+}
+
+.text-img{
+    padding-top: 120px;
+    padding-left: 66px;
+}
+
+.text-img h3{
+    color: white;
+    font-size: 33px;
+}
+
+.text-img p{
+    color: white;
+    font-size: 20px;
+    width: 45%;
+}
+
+.text-img button{
+    padding: 10px;
+    border-radius: 6px;
+    font-size: 16.5px;
+    border: none;
+    cursor: pointer;
+    background-color: #F8F9F9;
+    font-weight: bold;
+}
+
+.text-img button a{
+    text-decoration: none;
+    color: black;
+}
+
+.text-img button:hover{
+    background-color: #c1c1c1;
+    color: white;
+    transition: 0.5s;
+}
+
+
+h2{
+    color: #D35400;
+}
+
+h1{
+    padding-top: 45px;
+    padding-left: 50px;
+    font-size: 28px;
+    color: #D35400;
+}
+
+#container-historia{
+    padding-left: 50px;
+    width: 75%;
+}
+
+#container-historia h2{
+    font-size: 27px;
+}
+
+#container-historia p{
+    font-size: 18px;
+}
+
+figcaption{
+    font-weight: bold;
+}
+
+#container-primeras-empresas{
+    padding-left: 50px;
+    width: 75%;
+}
+
+#container-primeras-empresas h2{
+    font-size: 27px;
+}
+
+#container-primeras-empresas p{
+    font-size: 18px;
+}
+
+#container-primeras-empresas span{
+    font-weight: bold;
+    font-size: 18.5px;
+}
+
+#container-primeros-videojuegos{
+    padding-left: 50px;
+    width: 75%;
+}
+
+#container-primeros-videojuegos h2{
+    font-size: 27px;
+}
+
+#container-primeros-videojuegos p{
+    font-size: 18px;
+}
+
+#container-primeros-videojuegos span{
+    font-weight: bold;
+    font-size: 18.5px;
+}
+
+#tabla-estadisticas{
+    padding-left: 50px;
+    width: 65%;
+    padding-bottom: 20px;
+}
+
+#tabla-estadisticas h2{
+    font-size: 27px;
+}
+
+table{
+    border: solid 1px black;
+}
+
+td{
+    padding: 10px;
+    border: solid 1px black;
+    font-size: 16px;
+}
+
+th{
+    padding: 12px;
+    border: solid 1px black;
+    font-size: 18px;
+}
+
+.separador-table{
+    height: 3px;
+    background-color: black;
+    width: 95%;
+}
+
+.separador{
+    border: none;
+    height: 3px;
+    background-color: black;
+    width: 95%;
+}
+
+footer{
+    padding-top: 50px;
+    background-color: #000000;
+    color: rgb(255, 255, 255);
+    height: 200px;
+}
+
+footer .text-footer{
+    text-align: center;
+}
+
+footer .text-footer h3{
+    font-size: 20px;
+    padding-left: 20px;
+}
+
+footer .text-footer a{
+    display: inline-block;
+    position: relative;
+    text-decoration: none;
+    font-size: 24px;
+    padding-left: 28px;
+    text-decoration: none;
+    color: #c1c1c1;
+}
+
+footer .text-footer a:after {
+    content: "";
+    display: block;
+    margin: auto;
+    height: 2px;
+    width: 0px;
+    transition: all .5s;
+}
+
+footer .text-footer a:hover:after {
+    width: 100%;
+    background: #ffffff;
+}
+
+footer .text-footer p{
+    font-size: 18px;
+    padding-left: 25px;
+}
+
+footer .redes a{
+    text-decoration: none;
+    color: white;
+    margin: 6px;
+}
+
+footer .redes{
+    text-align: center;
+    font-size: 35px;
+}
+
+.redes a:hover{
+    color: #b7b7b7;
+    cursor: pointer;
+    transition: 0.3s;
+}
+
+@media screen and (max-width: 700px){
+    .text-img{
+        padding-top: 60px;
+        padding-left: 50px;
+    }
+    
+    .text-img h3{
+        color: white;
+        font-size: 30px;
+    }
+    
+    .text-img p{
+        color: white;
+        font-size: 19px;
+        width: 70%;
+    }
+    
+    .text-img button{
+        padding: 10px;
+        border-radius: 6px;
+        font-size: 16.5px;
+        border: none;
+        cursor: pointer;
+        background-color: #F8F9F9;
+        font-weight: bold;
+    }
+
+    #container-historia{
+        padding-left: 25px;
+        width: 87%;
+    }
+    
+    #container-historia h2{
+        font-size: 27px;
+    }
+    
+    #container-historia p{
+        font-size: 18px;
+    }
+
+    #container-primeras-empresas{
+        padding-left: 25px;
+        width: 87%;
+    }
+
+    #container-primeros-videojuegos{
+        padding-left: 25px;
+        width: 87%;
+    }
+
+    #tabla-estadisticas{
+        display: none;
+    }
+
+    .separador-table{
+        display: none;
+    }
+
+    #contacto{
+        height: 300px;
+        padding-left: 160px;
+        padding-top: 20px;
+        padding-bottom: 20px;
+    }
+
+}
+
+@media screen and (max-width: 420px){
+
+    .logo{
+        font-size: 45px;
+        padding: 10px;
+        color: black ;
+    }
+    
+    .topnav a {
+        float: left;
+        display: block;
+        color: black;
+        text-align: center;
+        margin-left: 15px;
+        padding: 17px 16px;
+        text-decoration: none;
+        font-size: 19px;
+    }
+
+    #img{
+        background-image: linear-gradient(
+            0deg,
+            rgba(0,0,0,0.7),
+            rgba(0,0,0,0.7)  
+        ) 
+        ,url("../Img/img-arcade-principal.jpeg");
+        background-repeat: no-repeat ;
+        background-size: cover;
+        background-position: center center;
+        height: 375px; 
+    }
+    
+    .text-img h3{
+        color: white;
+        font-size: 21px;
+    }
+
+    .text-img{
+        padding-top: 20px;
+        padding-left: 20px;
+    }
+    
+    .text-img p{
+        color: white;
+        font-size: 17px;
+        width: 85%;
+    }
+    
+    
+    .text-img button{
+        padding: 7.5px;
+        border-radius: 6px;
+        font-size: 12.5px;
+        border: none;
+        cursor: pointer;
+        background-color: #F8F9F9;
+        font-weight: bold;
+    }
+
+    #container-historia{
+        padding-left: 12px;
+        width: 87%;
+    }
+    
+    #container-historia h2{
+        font-size: 27px;
+    }
+    
+    #container-historia p{
+        font-size: 17px;
+    }
+
+    #container-historia img{
+        height: 250px;
+        width: 370px;
+    }
+
+    #container-primeras-empresas{
+        padding-left: 12px;
+        width: 87%;
+    }
+
+    #container-primeras-empresas img{
+        height: 250px;
+        width: 370px;
+    }
+
+    #container-primeros-videojuegos{
+        padding-left: 12px;
+        width: 87%;
+    }
+
+    #container-primeros-videojuegos img{
+        height: 250px;
+        width: 370px;
+    }
+
+    #tabla-estadisticas{
+        display: none;
+    }
+
+    .separador-table{
+        display: none;
+    }
+
+    footer .text-footer h3{
+        font-size: 17px;
+        padding-left: 8px;
+    }
+
+    footer .text-footer a{
+        font-size: 23px;
+        padding-left: 10px;
+        text-decoration: none;
+        color: #c1c1c1;
+    }
+
+    footer .text-footer p{
+        font-size: 15px;
+        padding-left: 10px;
+    }
+
+}
+
+
+
+
+
+
+
+
+
+
+
