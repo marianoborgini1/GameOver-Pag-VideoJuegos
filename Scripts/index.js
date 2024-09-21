@@ -14,4 +14,8 @@ document.getElementById("form").addEventListener("submit", function(event) {
     alert("Gracias por llenar el formulario, se comunicarán con usted a la brevedad.");
     }
 });
+<<<<<<< HEAD
 //Final Formulario alert lleno/vacio//
+=======
+//Final Formulario alert lleno/vacio//
+>>>>>>> 14dcbeaef654fbe95839dd793a6cb5fa960c043f

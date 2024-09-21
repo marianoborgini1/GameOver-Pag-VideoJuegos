@@ -1,7 +1,10 @@
+<<<<<<< HEAD
 html{
     scroll-behavior: smooth;
 }
 
+=======
+>>>>>>> 14dcbeaef654fbe95839dd793a6cb5fa960c043f
 body{
     margin: 0;
     background-color: #fffffff2;
@@ -36,6 +39,10 @@ header{
 
 .topnav a {
     display: block;
+<<<<<<< HEAD
+=======
+    color: rgb(255, 255, 255);
+>>>>>>> 14dcbeaef654fbe95839dd793a6cb5fa960c043f
     text-align: center;
     margin-left: 20px;
     padding: 17px 16px;
@@ -54,7 +61,11 @@ header{
     height: 2px;
     width: 0px;
     transition: all .8s;
+<<<<<<< HEAD
 }
+=======
+    }
+>>>>>>> 14dcbeaef654fbe95839dd793a6cb5fa960c043f
 
 .topnav a:hover:after {
     width: 100%;
@@ -127,6 +138,10 @@ header{
 .text-img button:hover{
     background-color: #c1c1c1;
     color: white;
+<<<<<<< HEAD
+=======
+    transition: 0.5s;
+>>>>>>> 14dcbeaef654fbe95839dd793a6cb5fa960c043f
 }
 
 
@@ -233,6 +248,7 @@ th{
     width: 95%;
 }
 
+<<<<<<< HEAD
 #nosotros{
     padding-left: 50px;
     width: 70%;
@@ -321,6 +337,8 @@ input:focus {
     cursor: pointer;
 }
 
+=======
+>>>>>>> 14dcbeaef654fbe95839dd793a6cb5fa960c043f
 footer{
     padding-top: 50px;
     background-color: #000000;
@@ -347,9 +365,24 @@ footer .text-footer a{
     color: #c1c1c1;
 }
 
+<<<<<<< HEAD
 footer .text-footer a:hover{
     color: #ffffff;
     transition: 0.6s;
+=======
+footer .text-footer a:after {
+    content: "";
+    display: block;
+    margin: auto;
+    height: 2px;
+    width: 0px;
+    transition: all .5s;
+}
+
+footer .text-footer a:hover:after {
+    width: 100%;
+    background: #ffffff;
+>>>>>>> 14dcbeaef654fbe95839dd793a6cb5fa960c043f
 }
 
 footer .text-footer p{
@@ -369,7 +402,11 @@ footer .redes{
 }
 
 .redes a:hover{
+<<<<<<< HEAD
     color: #c1c1c1;
+=======
+    color: #b7b7b7;
+>>>>>>> 14dcbeaef654fbe95839dd793a6cb5fa960c043f
     cursor: pointer;
     transition: 0.3s;
 }
@@ -446,13 +483,21 @@ footer .redes{
     .logo{
         font-size: 45px;
         padding: 10px;
+<<<<<<< HEAD
         color: #ffffff  ;
+=======
+        color: black ;
+>>>>>>> 14dcbeaef654fbe95839dd793a6cb5fa960c043f
     }
     
     .topnav a {
         float: left;
         display: block;
+<<<<<<< HEAD
         color: #ffffff;
+=======
+        color: black;
+>>>>>>> 14dcbeaef654fbe95839dd793a6cb5fa960c043f
         text-align: center;
         margin-left: 15px;
         padding: 17px 16px;
@@ -460,6 +505,7 @@ footer .redes{
         font-size: 19px;
     }
 
+<<<<<<< HEAD
     .topnav a:hover:after {
         width: 100%;
         background: #ffffff;
@@ -493,6 +539,8 @@ footer .redes{
         transition: 0.2s;
     }
 
+=======
+>>>>>>> 14dcbeaef654fbe95839dd793a6cb5fa960c043f
     #img{
         background-image: linear-gradient(
             0deg,
@@ -508,17 +556,29 @@ footer .redes{
     
     .text-img h3{
         color: white;
+<<<<<<< HEAD
         font-size: 19px;
+=======
+        font-size: 21px;
+>>>>>>> 14dcbeaef654fbe95839dd793a6cb5fa960c043f
     }
 
     .text-img{
         padding-top: 20px;
+<<<<<<< HEAD
         padding-left: 25px;
+=======
+        padding-left: 20px;
+>>>>>>> 14dcbeaef654fbe95839dd793a6cb5fa960c043f
     }
     
     .text-img p{
         color: white;
+<<<<<<< HEAD
         font-size: 16px;
+=======
+        font-size: 17px;
+>>>>>>> 14dcbeaef654fbe95839dd793a6cb5fa960c043f
         width: 85%;
     }
     
@@ -579,6 +639,7 @@ footer .redes{
         display: none;
     }
 
+<<<<<<< HEAD
     #nosotros{
         padding-left: 10px;
         width: 90%;
@@ -599,6 +660,8 @@ footer .redes{
         border: none;
     }
 
+=======
+>>>>>>> 14dcbeaef654fbe95839dd793a6cb5fa960c043f
     footer .text-footer h3{
         font-size: 17px;
         padding-left: 8px;
